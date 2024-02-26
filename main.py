@@ -12,6 +12,7 @@ admin_id = 753113351
 moder1_id = 925051239
 moder2_id = 789022369
 
+
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(func=lambda message: True)
